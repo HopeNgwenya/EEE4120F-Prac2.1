@@ -53,10 +53,9 @@ __kernel void HelloWorld(__global int* argument1, __global int* argument2, __glo
 	//--------------------------------------------------------------------------------
 	
 	int value = 0;
-	//int currentItem
 	int currentGroup = workGroupNum;
 	
-	for()
+	
 	if(workGroupNum == currentGroup){
 		value = value + out_put; 
 		printf("groupValue: %i \t Work item:%i \t Work group: %i \n", value, workItemNum, workGroupNum);
